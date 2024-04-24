@@ -1,0 +1,26 @@
+.notification{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    width:50%;
+    margin: auto;
+    /* justify-content: center; */
+}
+.notify{
+ flex-grow: 1;
+ flex-basis: 200;
+}
+.user-img{
+
+    height: 60px;
+    width: 60px;
+    object-fit: fill;
+    border-radius: 50%;
+    float: right;
+}
+.notification-header{
+    text-align:center;
+    background-color:deeppink;
+    color:white;
+    padding:10px 0 10px 0;
+}

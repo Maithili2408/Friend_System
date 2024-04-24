@@ -1,0 +1,126 @@
+.profile{
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 30px;
+    /* border-bottom: 1px solid black; */
+    box-shadow: 0 3px 3px -3px gray;
+}
+
+.icon1{
+  border: 1px solid black ;
+      border-radius: 50%;
+       padding: 20px 25px 30px 25px;
+       background: linear-gradient(180deg, white 53%, rgb(200, 100, 153) 47%);
+}
+.profile-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+    /* border: 1px solid black; */
+    background-image: linear-gradient(180deg,rgb(200, 100, 153) 60%, white 40%);
+}
+/* .avatar{
+    padding: 20px;
+    border: 1px solid black;
+} */
+.bio>h2{
+    font-size: 30px;
+    font-weight: 700;
+   
+}
+.bio{
+    padding:5px 0 0 40px;
+    /* border: 1px solid black; */
+}
+input[type="file"]{
+    display: none;
+  }
+
+  label{
+    cursor:pointer;
+    font-size: 20px;
+    
+  }
+  .setting{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    
+    /* border: 1px solid black; */
+    /* align-items: center; */
+  }
+  .setting-item{
+    width: 20%;
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 7vw;
+    /* border: 1px solid black; */
+    align-self: center;
+    text-align: center;
+  }
+  .post-container{
+    width: 50%;
+    margin: auto;
+    /* font-weight: 700; */
+    text-align: center;
+    /* border: 1px solid red; */
+    
+  }
+  .post-info{
+    margin-top: 80px;
+    width: 100%;
+    /* margin: auto; */
+    border: 1px solid blue;
+  }
+
+  .post-image{
+    height: 200px;
+    width: 200px;
+    object-fit: fill;
+    margin-top: 20px;
+  }
+  
+ 
+  .left{
+    float: left;
+    width: 50%;
+    height: 300px;
+    /* border: 1px solid black; */
+    background-color: rgb(249, 235, 249);
+    margin-top: 20px;
+  }
+  .right{
+    float: right;
+    width: 50%;
+    height: 300px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    text-align: left;
+    background-color: rgb(249, 235, 249);
+
+  }
+
+  .icon{
+     border: 1px solid black ;
+      border-radius: 50%;
+       padding: 5px 10px 5px 10px;
+  }
+
+  .scroll{
+    width: 350px;
+     height: 180px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+    background-color: white;
+    border: 1px solid gray;
+  }
+  .scroll::-webkit-scrollbar {
+    display: none;
+}
+.scroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
